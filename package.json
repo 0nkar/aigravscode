@@ -1,0 +1,20 @@
+{
+  "name": "aigravscode",
+  "version": "0.1.0",
+  "description": "A modern, multi-stack project starter template with integrated Antigravity AI configuration.",
+  "main": "src/aigravscode/main.py",
+  "scripts": {
+    "start": "python src/aigravscode/main.py",
+    "test": ".venv\\Scripts\\python -m pytest tests/",
+    "setup": "python -m venv .venv && .venv/Scripts/activate && pip install -r requirements.txt && pip install -e ."
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "coding",
+    "assistant",
+    "agnostic"
+  ],
+  "author": "Antigravity Team",
+  "license": "MIT"
+}
